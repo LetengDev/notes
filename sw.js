@@ -7,7 +7,7 @@
 // The saved copy is the LOCKED page, so it still needs the password.
 //
 // VERSION is replaced by publish.py on every publish so old copies get cleared.
-const VERSION = "a913d5e918be";
+const VERSION = "ed9a962d934e";
 const CACHE = "notes-" + VERSION;
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 const NETWORK_WAIT_MS = 4000; // give up on a slow network after 4 s and use the saved copy
